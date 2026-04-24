@@ -1,0 +1,42 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches/build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local secrets/config
+.env
+.env.*
+
+# Titanic generated artifacts (keep raw Kaggle train/test CSVs)
+titanic_assignment/data/train_cleaned.csv
+titanic_assignment/data/test_cleaned.csv
+titanic_assignment/data/train_features.csv
+titanic_assignment/data/test_features.csv
+titanic_assignment/data/train_selected.csv
+titanic_assignment/data/test_selected.csv
+titanic_assignment/data/feature_importance.csv
+titanic_assignment/data/selected_features.txt
+titanic_assignment/data/rfe_selected_features.txt
